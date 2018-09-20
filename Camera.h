@@ -9,6 +9,7 @@ namespace Rover
 	public:
 		static void cameraMoveX(float xPos);
 		static void cameraMoveY(float yPos);
+		static void cameraReset();
 	private:
 		static bool camState;
 	};

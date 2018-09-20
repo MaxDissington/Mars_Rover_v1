@@ -12,3 +12,9 @@ void Camera::cameraMoveY(float y)
 {
 
 }
+
+void Camera::cameraReset()
+{
+	cameraMoveX(0);
+	cameraMoveY(0);
+}
