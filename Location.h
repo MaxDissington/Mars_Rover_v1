@@ -13,7 +13,7 @@ namespace Rover
 		static void setX(float xPosition);
 		static void setY(float yPosition);
 	private:
-		static std::vector<double> location;
+		static std::vector<float> location;
 		static const int x;
 		static const int y;
 	};

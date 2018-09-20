@@ -3,7 +3,7 @@
 using namespace Rover;
 using namespace std;
 
-vector<double> Location::location(2, 0);
+vector<float> Location::location(2, 0);
 const int Location::x = 0;
 const int Location::y = 1;
 

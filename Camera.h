@@ -7,8 +7,9 @@ namespace Rover
 		: public Base
 	{
 	public:
-
+		static void cameraMoveX(float xPos);
+		static void cameraMoveY(float yPos);
 	private:
-		
+		static bool camState;
 	};
 }
