@@ -1,4 +1,5 @@
 #include "Location.h"
+#include <iostream>
 
 using namespace Rover;
 using namespace std;
@@ -59,4 +60,13 @@ void Location::setLocationManual(float xPos, float yPos)
 {
 	setXManual(xPos);
 	setYManual(yPos);
+}
+
+void Location::currentValue()
+{
+  cout << "\tCurrent x Value: " << Location::getX() << endl;
+  cout << "\tCurrent y Value: " << Location::getY() << endl;
+  cout << "\tCurrent  vector:(" << Location::getLocation().at(Location::x) <<
+    ", " << Location::getLocation().at(Location::y) <<
+    ")" << endl;
 }

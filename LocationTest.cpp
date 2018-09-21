@@ -9,10 +9,7 @@ int LocationTest::test(int error)
 {
   cout << "Location Test..." << endl;
   //If there is an error make error equal 0001
-  cout << "\tCurrnet x value: " << Location::getX() << endl;
-  cout << "\tCurrent y value: " << Location::getY() << endl;
-  cout << "\tCurrent  vector: " << Location::getLocation().at(Location::x) <<
-                           ", " << Location::getLocation().at(Location::y) << endl;
+  Location::currentValue();
 
   Location::setLocation(5.0, 8.0);
   if (Location::getX() != Location::getLocation().at(Location::x))

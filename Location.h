@@ -17,10 +17,12 @@ namespace Rover
 		static void setYManual(float yPos);
 		static void setLocation(float xPos, float yPos);
 		static void setLocationManual(float xPos, float yPos);
+    static void currentValue();
 
 		static const int x;
 		static const int y;
 	private:
+
 		static std::vector<float> location;
 	};
 }
