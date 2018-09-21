@@ -16,6 +16,8 @@ namespace Rover
 		static void reset();		
 		static void midpointReset();
 		static void angleReset();
+		static void maximumReset();
+		static void minimumReset();
 
 	private:
 		static struct turn
@@ -29,7 +31,7 @@ namespace Rover
 		static float getAngle(turn& motorAngle);
 		static float getMaximum(turn& motorMax);
 		static float getMinimum(turn& motorMin);
-		static float getMidpoint(turn& motorMid);;
+		static float getMidpoint(turn& motorMid);
 		static void setAngle(turn& motorAngle, float ang);
 		static void setMaximum(turn& motorMax, float max);
 		static void setMinimum(turn& motorMin, float min);

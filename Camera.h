@@ -10,7 +10,10 @@ namespace Rover
 		static void cameraMoveX(float xPos);
 		static void cameraMoveY(float yPos);
 		static void cameraReset();
+		static void cameraRelay();
 	private:
 		static bool camState;
+		static float xCenter;
+		static float yCenter;
 	};
 }
