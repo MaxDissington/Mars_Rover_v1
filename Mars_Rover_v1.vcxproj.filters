@@ -16,6 +16,9 @@
     <Filter Include="Source Files\TestFiles">
       <UniqueIdentifier>{8aa57e58-e6a1-45e9-a602-f35a20d8352a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\TestFiles">
+      <UniqueIdentifier>{9b5077cb-5bd0-4744-95a1-8fd0eb2b2f09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Base.h">
@@ -33,6 +36,18 @@
     <ClInclude Include="Location.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CameraTest.h">
+      <Filter>Header Files\TestFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorTest.h">
+      <Filter>Header Files\TestFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnTest.h">
+      <Filter>Header Files\TestFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="LocationTest.h">
+      <Filter>Header Files\TestFiles</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Base.cpp">
@@ -49,6 +64,18 @@
     </ClCompile>
     <ClCompile Include="Location.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocationTest.cpp">
+      <Filter>Source Files\TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTest.cpp">
+      <Filter>Source Files\TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorTest.cpp">
+      <Filter>Source Files\TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnTest.cpp.cpp">
+      <Filter>Source Files\TestFiles</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

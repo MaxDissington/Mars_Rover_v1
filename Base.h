@@ -17,12 +17,7 @@ namespace Rover
 		static int runTest();
 
 	private:
-		static int& locationTest(int& error);
-		static int& turnTest(int& error);
-		static int& cameraTest(int& error);
-		static int& motorTest(int& error);
-
-		static const std::string password;
+    static const std::string password;
 		static const int numberOfMotors;
 		static int error;
 		
