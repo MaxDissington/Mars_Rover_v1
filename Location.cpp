@@ -66,7 +66,6 @@ void Location::currentValue()
 {
   cout << "\tCurrent x Value: " << Location::getX() << endl;
   cout << "\tCurrent y Value: " << Location::getY() << endl;
-  cout << "\tCurrent  vector:(" << Location::getLocation().at(Location::x) <<
-    ", " << Location::getLocation().at(Location::y) <<
-    ")" << endl;
+  cout << "\tCurrent  vector: " << Location::getLocation().at(Location::x) <<
+                           ", " << Location::getLocation().at(Location::y) << endl;
 }

@@ -1,7 +1,2 @@
-﻿  Base.cpp
-c:\users\dissi\documents\visual studio 2017\mars_rover_v1\motor.h(19): warning C4091: 'static ': ignored on left of 'Rover::Motor::motor' when no variable is declared
-c:\users\dissi\documents\visual studio 2017\mars_rover_v1\turn.h(29): warning C4091: 'static ': ignored on left of 'Rover::Turn::turn' when no variable is declared
-  Location.cpp
-  LocationTest.cpp
-  Generating Code...
+﻿  Location.cpp
   Mars_Rover_v1.vcxproj -> C:\Users\dissi\Documents\Visual Studio 2017\Mars_Rover_v1\Debug\Mars_Rover_v1.exe

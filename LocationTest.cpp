@@ -20,6 +20,7 @@ int LocationTest::test(int error)
   {
     error = error + 1;
   }
+  Location::currentValue();
   Location::setXManual(0.0);
   Location::setYManual(0.0);
   if (Location::getX() != 0.0)
@@ -32,6 +33,7 @@ int LocationTest::test(int error)
   }
   Location::setX(2.0);
   Location::setY(3.0);
+  Location::setY(4.2);
   if (Location::getX() != 2.0)
   {
     error = error + 1;
@@ -40,6 +42,7 @@ int LocationTest::test(int error)
   {
     error = error + 1;
   }
+  Location::currentValue();
 
   return error;
 }
